@@ -70,12 +70,12 @@
 					<div class="text-center panel-primary panel-margin-bot">
 						<div class="panel-heading panel-skinny">
 								<span class="font-bold">Palm Beach County:</span>
-								<a class="globalnav" target="_blank" href="http://discover.pbcgov.org/">Home</a> |   
-								<a class="globalnav" target="_blank" href="http://discover.pbcgov.org/Pages/Jobs.aspx">Jobs</a> |   
-								<a class="globalnav" target="_blank" href="http://discover.pbcgov.org/Pages/Links.aspx">Links</a> |   
-								<a class="globalnav" target="_blank" href="http://discover.pbcgov.org/publicaffairs/Pages/default.aspx">Public Affairs</a> |    
-								<a class="globalnav" target="_blank" href="http://discover.pbcgov.org/Pages/Departments.aspx">Site Index</a> |   
-								<a class="globalnav" target="_blank" href="http://discover.pbcgov.org/publicaffairs/Pages/contact.aspx">Contact PBC</a>
+								<a class="globalnav" target="_blank" >Home</a> |   
+								<a class="globalnav" target="_blank" >Jobs</a> |   
+								<a class="globalnav" target="_blank" >Links</a> |   
+								<a class="globalnav" target="_blank" >Public Affairs</a> |    
+								<a class="globalnav" target="_blank" >Site Index</a> |   
+								<a class="globalnav" target="_blank" >Contact PBC</a>
 						</div>
 					</div>
 				</div>
@@ -115,7 +115,7 @@
 							}
 							else {
 								echo "
-									<a class='globalnav' href='http://discover.pbcgov.org/palmtran/Pages/default.aspx' target='_blank'>Palm Tran Home</a>
+									<a class='globalnav' target='_blank'>Palm Tran Home</a>
 								";
 							}
 						?>
