@@ -15,10 +15,10 @@
 	/* Connect to our database */
 	if($maintenanceMode != true) {
 		/* Our MySQL connection information */
-		$host = "151.132.81.23";
-		$dbUser = "amukli";
-		$dbPass = "123";
-		$dbName = "palmi_licensing";
+		$host = "";
+		$dbUser = "";
+		$dbPass = "";
+		$dbName = "";
 		/* Connect to our MySQL database */
 		try {
 			$mysqlConn = new PDO("mysql:host=$host;dbname=$dbName", $dbUser, $dbPass);
@@ -42,7 +42,7 @@
 	$GLOBALS['siteTitle'] = "Licensing Application";
 	$GLOBALS['sessionName'] = "license";
 	$GLOBALS['mainBodyDimension'] = "col-md-10 col-md-offset-1";
-	$GLOBALS['domainController'] = "ldap://pbceocdc01.pbcgov.org";
+	$GLOBALS['domainController'] = "";
 	
 	/* Comment this out to disable the page information box */
 	$GLOBALS['pageInfo'] = "This site displays all the licenses purchased, both active and inactive.";
