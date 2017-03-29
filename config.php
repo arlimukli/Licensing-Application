@@ -38,7 +38,7 @@
 	*************************************************************************
 	************************************************************************/
 	/* Global variables */
-	$GLOBALS['siteURL'] = "http://ptrnfs27.pbcgov.org/amukli/licensing/";
+	$GLOBALS['siteURL'] = "";
 	$GLOBALS['siteTitle'] = "Licensing Application";
 	$GLOBALS['sessionName'] = "license";
 	$GLOBALS['mainBodyDimension'] = "col-md-10 col-md-offset-1";
