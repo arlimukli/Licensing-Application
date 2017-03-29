@@ -1,0 +1,111 @@
+		body {
+			background-color: #eee;
+		}
+		.pbcgovLogo {
+			width: 100%; 
+			max-width: 400px; 
+			height: auto;
+		}
+		.globalnav {
+			color: #000000;
+			font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+			font-weight: bold;
+			white-space: nowrap;
+			text-decoration: none;
+		}
+		a.globalnav:hover {
+			color: #F5F5F5;
+			text-decoration: none;
+		}
+		.headerImg {
+			text-align: center;
+			width: 100%;
+			height: auto;
+			border-radius: 3px;
+			margin: 0 auto;
+		}
+		.panel-skinny {
+			border-radius: 3px;
+			height: 20px;
+			padding: 0px;
+			padding-bottom: 10px;
+			font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+			text-align: center;
+			overflow: hidden;
+		}
+		.blankRow {
+			border-radius: 3px;
+			max-width: 100%;
+			height: 2px;
+			margin-top: 1px;
+			margin-bottom: 1px;
+			background-color: #FFFFFF;
+		}
+		.control-label1 {
+			text-align: right;   
+			font-size: 14px;
+			line-height: 1.42857143;
+		}
+		#footer-main {
+			max-width: 100%;
+			margin-bottom: 1px;
+		}
+		.footerRow {
+			background-color: #99CC99;
+			height: 38px;
+		}
+		.footerBackground {
+			border-radius: 3px;
+			background-color: #cecece;
+			background-position: center center;
+			background-repeat: no-repeat;
+		}
+		.footer-pt, a.footer-pt:active, a.footer-pt:link, a.footer-pt:visited {
+			color: #2a2a2a;
+			font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+			font-size: xx-small;
+			text-align: center;
+			text-decoration: none;
+		}
+		a.footer-pt:hover {
+			text-decoration: underline;
+		}
+		.panelPadding {
+			padding: 10px 20px 10px 20px;
+			text-align: center;
+		}
+		.panel-margin-bot {
+			margin-bottom: 5px;
+		}
+		.panel-margin-top {
+			margin-top: 5px;
+		}
+		.font-bold {
+			font-weight: bold;
+		}
+		.login-headers {
+			min-width: 155px; 
+			text-align: left;
+		}
+		.login-input {
+			min-width: 125px;
+		}
+		.login-submit {
+			margin: 0 auto;
+			min-width: 125px;
+			max-width: 250px;
+		}
+		.login-message {
+			margin: 0 auto; 
+			font-weight: bold;
+		}
+		.alert-margin-fix {
+			margin-top: 5px;
+			margin-bottom: 10px;
+		}
+		.panel-margin {
+			margin-bottom: 8px;
+		}
+		.input-width {
+			max-width: 300px;
+		}
