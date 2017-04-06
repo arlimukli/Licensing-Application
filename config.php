@@ -15,10 +15,10 @@
 	/* Connect to our database */
 	if($maintenanceMode != true) {
 		/* Our MySQL connection information */
-		$host = "";
-		$dbUser = "";
+		$host = "localhost";
+		$dbUser = "root";
 		$dbPass = "";
-		$dbName = "";
+		$dbName = "test";
 		/* Connect to our MySQL database */
 		try {
 			$mysqlConn = new PDO("mysql:host=$host;dbname=$dbName", $dbUser, $dbPass);

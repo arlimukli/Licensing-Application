@@ -202,8 +202,8 @@
 					<td>" . $row['quantity_in_use'] ."</td>";
 					if($_SESSION['isAdmin'] == 1){
 						echo "
-					<td><u><a href='http://ptrnfs27.pbcgov.org/amukli/licensing/maintenance.php?ID=$ID'>" . "EDIT" . "</a></u></td>
-					<td><u><a href='http://ptrnfs27.pbcgov.org/amukli/licensing/assignUsers.php?licenseName=$licenseName'>" . "VIEW" . "</a></u></td>
+					<td><u><a href='maintenance.php?ID=$ID'>" . "EDIT" . "</a></u></td>
+					<td><u><a href='assignUsers.php?licenseName=$licenseName'>" . "VIEW" . "</a></u></td>
 					";
 					}
 				echo "
@@ -294,7 +294,7 @@
 					<td>" . $row['quantity_in_use'] . "</td>";
 					if($_SESSION['isAdmin'] == 1){
 						echo "
-						<td><u><a href='http://ptrnfs27.pbcgov.org/amukli/licensing/maintenance.php?ID=$ID'>" . "EDIT" . "</a></u></td>
+						<td><u><a href='maintenance.php?ID=$ID'>" . "EDIT" . "</a></u></td>
 						";
 					}
 				echo "
